@@ -6,6 +6,8 @@ import Services from './components/Services';
 import Register from './components/Register';
 import Blog from './components/Blog';
 import Footer from './components/Footer';
+import Partners from './components/Partners';
+import Team from './components/Team';
 
 function App() {
   useEffect(() => {
@@ -37,6 +39,8 @@ function App() {
       <Services />
       <Register />
       <Blog />
+      <Team />
+      <Partners />
       <Footer />
     </div>
   );

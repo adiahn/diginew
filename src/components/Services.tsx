@@ -165,7 +165,7 @@ const Services: React.FC = () => {
   ];
 
   return (
-    <section id="services" className="py-20 bg-gradient-to-br from-slate-800 via-slate-900 to-slate-800 relative overflow-hidden">
+    <section id="services" className="py-20 bg-transparent relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-0 right-0 w-96 h-96 bg-emerald-500/5 rounded-full blur-3xl"></div>
