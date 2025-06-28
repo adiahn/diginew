@@ -9,10 +9,10 @@ const Hero: React.FC = () => {
 
   const slides = [
     {
-      title: "Digital Katsina",
-      subtitle: "Nigeria's Smart State",
-      description: "Transforming Katsina into Africa's digital powerhouse through innovation, education, and technology-driven growth.",
-      icon: <Globe className="w-8 h-8 md:w-10 md:h-10" />,
+      title: "Innovation Hub",
+      subtitle: "Africa's Tech Frontier",
+      description: "Building the next generation of African tech leaders through cutting-edge innovation, creative arts, and digital entrepreneurship.",
+      icon: <Lightbulb className="w-8 h-8 md:w-10 md:h-10" />,
       color: "from-emerald-400 to-cyan-600"
     },
     {
