@@ -13,7 +13,9 @@ import {
   Wifi,
   GraduationCap,
   Briefcase,
-  Heart
+  Heart,
+  Palette,
+  Camera
 } from 'lucide-react';
 
 const About: React.FC = () => {
@@ -31,7 +33,7 @@ const About: React.FC = () => {
     {
       icon: <Users className="w-8 h-8" />,
       title: "Youth Empowerment",
-      description: "Upskill thousands of youths with cutting-edge digital skills for global competitiveness."
+      description: "Upskilling thousands of youths with cutting-edge digital skills for global competitiveness."
     },
     {
       icon: <Globe className="w-8 h-8" />,
@@ -48,9 +50,9 @@ const About: React.FC = () => {
       color: "from-emerald-500 to-cyan-600"
     },
     {
-      icon: <Building2 className="w-6 h-6" />,
-      title: "Smart Government",
-      description: "E-governance solutions and digital public service delivery",
+      icon: <BookOpen className="w-6 h-6" />,
+      title: "Digital Education",
+      description: "E-learning platforms and interactive educational content for all ages",
       color: "from-purple-500 to-pink-600"
     },
     {
@@ -60,9 +62,9 @@ const About: React.FC = () => {
       color: "from-blue-500 to-indigo-600"
     },
     {
-      icon: <Wifi className="w-6 h-6" />,
-      title: "Digital Infrastructure",
-      description: "High-speed internet and smart city systems deployment",
+      icon: <Palette className="w-6 h-6" />,
+      title: "Creative Arts & Media",
+      description: "Digital content creation, graphic design, and multimedia production",
       color: "from-orange-500 to-red-600"
     },
     {

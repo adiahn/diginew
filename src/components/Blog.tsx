@@ -71,15 +71,15 @@ const Blog: React.FC = () => {
     },
     {
       id: 4,
-      title: "E-Governance Platform Goes Live: 50+ Services Now Digital",
-      excerpt: "Katsina State launches its comprehensive e-governance platform, making over 50 government services accessible online for citizens.",
+      title: "Digital Education Platform Goes Live: 100+ Schools Connected",
+      excerpt: "Katsina State launches its comprehensive digital education platform, connecting over 100 schools with e-learning resources and tools.",
       category: "updates",
-      author: "Smart Government Team",
+      author: "Digital Education Team",
       date: "March 8, 2024",
       readTime: "4 min read",
-      image: "💻",
+      image: "📚",
       featured: false,
-      tags: ["E-Governance", "Digital Services", "Government"]
+      tags: ["Digital Education", "E-Learning", "Schools"]
     },
     {
       id: 5,

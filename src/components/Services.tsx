@@ -18,7 +18,10 @@ import {
   Play,
   Star,
   Target,
-  Lightbulb
+  Lightbulb,
+  BookOpen,
+  Palette,
+  Camera
 } from 'lucide-react';
 
 const Services: React.FC = () => {
@@ -50,21 +53,21 @@ const Services: React.FC = () => {
     },
     {
       id: 1,
-      title: "Smart Government Initiative",
-      subtitle: "Digital Transformation of Public Services",
-      icon: <Building2 className="w-8 h-8" />,
+      title: "Digital Education",
+      subtitle: "Revolutionizing Learning Through Technology",
+      icon: <BookOpen className="w-8 h-8" />,
       color: "from-purple-500 to-pink-600",
-      description: "Modernizing government services through digital infrastructure, e-governance solutions, and data-driven policy making.",
+      description: "Transforming education through digital platforms, e-learning tools, and interactive learning experiences for students of all ages.",
       features: [
-        "E-governance platform development",
-        "Digital public service delivery",
-        "Data analytics for policy making",
-        "Smart city infrastructure",
-        "Digital identity management",
-        "Transparent governance systems"
+        "E-learning platform development",
+        "Interactive educational content",
+        "Digital library and resources",
+        "Online tutoring and mentoring",
+        "Virtual classrooms and labs",
+        "Educational app development"
       ],
-      stats: { services: "100+", efficiency: "60%", citizens: "500K+" },
-      image: "🏛️"
+      stats: { students: "25,000+", courses: "100+", schools: "200+" },
+      image: "📚"
     },
     {
       id: 2,
@@ -86,21 +89,21 @@ const Services: React.FC = () => {
     },
     {
       id: 3,
-      title: "Digital Infrastructure",
-      subtitle: "Building the Foundation for Digital Growth",
-      icon: <Wifi className="w-8 h-8" />,
+      title: "Creative Arts & Media",
+      subtitle: "Digital Content Creation & Design",
+      icon: <Palette className="w-8 h-8" />,
       color: "from-orange-500 to-red-600",
-      description: "Deploying high-speed internet, smart city systems, and digital infrastructure across all 34 LGAs of Katsina State.",
+      description: "Empowering creative talents through digital content creation, graphic design, multimedia production, and digital arts training.",
       features: [
-        "High-speed fiber optic networks",
-        "5G and wireless connectivity",
-        "Smart city IoT systems",
-        "Digital payment infrastructure",
-        "Cloud computing facilities",
-        "Cybersecurity infrastructure"
+        "Graphic design and branding",
+        "Digital content creation",
+        "Video production and editing",
+        "Photography and cinematography",
+        "Animation and 3D modeling",
+        "Social media content creation"
       ],
-      stats: { coverage: "100%", speed: "1Gbps", lgas: "34" },
-      image: "🌐"
+      stats: { creators: "500+", projects: "1,000+", clients: "200+" },
+      image: "🎨"
     },
     {
       id: 4,
@@ -149,8 +152,8 @@ const Services: React.FC = () => {
     },
     {
       name: "Musa Ibrahim",
-      role: "Civil Servant",
-      content: "Digital training transformed how I work. I can now serve citizens more efficiently through our new e-governance platform.",
+      role: "Digital Educator",
+      content: "Digital education transformed how I teach. I can now reach students across Katsina through our e-learning platform.",
       avatar: "👨‍💼"
     },
     {

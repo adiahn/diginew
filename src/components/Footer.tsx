@@ -34,8 +34,9 @@ const Footer: React.FC = () => {
 
   const initiatives = [
     { name: 'Digital Skills Academy', href: '#' },
-    { name: 'Smart Government', href: '#' },
+    { name: 'Digital Education', href: '#' },
     { name: 'Innovation Hub', href: '#' },
+    { name: 'Creative Arts & Media', href: '#' },
     { name: 'Rural Inclusion', href: '#' },
     { name: 'E-Commerce Growth', href: '#' }
   ];

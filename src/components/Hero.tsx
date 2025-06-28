@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowRight, Play, Globe, Users, TrendingUp, Zap, Star, MapPin } from 'lucide-react';
+import { ArrowRight, Play, Globe, Users, TrendingUp, Zap, Star, MapPin, BookOpen, Lightbulb } from 'lucide-react';
 import ThreeBackground from './ThreeBackground';
 
 const Hero: React.FC = () => {
@@ -23,11 +23,11 @@ const Hero: React.FC = () => {
       color: "from-purple-400 to-pink-600"
     },
     {
-      title: "Smart Governance",
-      subtitle: "Digital Transformation",
-      description: "Modernizing public services through e-governance, data-driven policies, and transparent digital infrastructure.",
-      icon: <TrendingUp className="w-8 h-8" />,
-      color: "from-blue-400 to-indigo-600"
+      title: "Digital Education",
+      subtitle: "Learning Revolution",
+      description: "Revolutionizing education through digital platforms, e-learning tools, and interactive learning experiences for all ages.",
+      icon: <BookOpen className="w-8 h-8" />,
+      color: "from-orange-400 to-red-600"
     }
   ];
 
