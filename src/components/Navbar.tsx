@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
       style={{ pointerEvents: 'none' }}
     >
       <div
-        className={`pointer-events-auto mx-auto max-w-4xl w-[95vw] sm:w-[90vw] md:w-[80vw] lg:w-[60vw] xl:w-[50vw] rounded-full shadow-xl border border-slate-700/40 bg-slate-900/80 backdrop-blur-lg px-4 sm:px-8 py-2 sm:py-3 flex items-center justify-between transition-all duration-300 ${
+        className={`pointer-events-auto mx-auto max-w-6xl w-[98vw] sm:w-[95vw] md:w-[90vw] lg:w-[80vw] xl:w-[70vw] rounded-full shadow-xl border border-slate-700/40 bg-slate-900/80 backdrop-blur-lg px-4 sm:px-8 py-2 sm:py-3 flex items-center justify-between transition-all duration-300 ${
           isScrolled ? 'border-emerald-500/40 bg-slate-900/90' : ''
         }`}
       >
@@ -101,8 +101,8 @@ const Navbar: React.FC = () => {
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
-            className="fixed top-20 left-1/2 transform -translate-x-1/2 w-[95vw] sm:w-[90vw] md:w-[80vw] lg:w-[60vw] xl:w-[50vw] mx-auto rounded-2xl shadow-xl border border-slate-700/40 bg-slate-900/95 backdrop-blur-lg px-4 sm:px-8 py-4 z-50"
-            style={{ maxWidth: '28rem' }}
+            className="fixed top-20 left-1/2 transform -translate-x-1/2 w-[98vw] sm:w-[95vw] md:w-[90vw] lg:w-[80vw] xl:w-[70vw] mx-auto rounded-2xl shadow-xl border border-slate-700/40 bg-slate-900/95 backdrop-blur-lg px-4 sm:px-8 py-4 z-50"
+            style={{ maxWidth: '40rem' }}
           >
             <div className="flex flex-col space-y-4">
               {navItems.map((item, index) => (
