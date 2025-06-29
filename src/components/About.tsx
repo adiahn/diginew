@@ -121,10 +121,10 @@ const About: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-5xl md:text-6xl font-black text-white mb-6"
           >
-            Transforming Katsina
+            Empowering Katsina's Digital Future
             <br />
             <span className="bg-gradient-to-r from-emerald-400 to-cyan-600 bg-clip-text text-transparent">
-              Into Nigeria's Smart State
+              Innovation. Opportunity. Impact.
             </span>
           </motion.h2>
 
@@ -134,8 +134,7 @@ const About: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed"
           >
-            Digital Katsina Project is a comprehensive initiative aimed at digitally transforming Katsina State, 
-            empowering individuals, enhancing public services, and positioning the state as a digital powerhouse in Africa.
+            The Digital Katsina Project is pioneering a new era for Katsina—where technology, creativity, and education unite to unlock opportunities, inspire innovation, and transform lives across every community.
           </motion.p>
         </motion.div>
 
@@ -155,7 +154,7 @@ const About: React.FC = () => {
               <h3 className="text-3xl font-bold text-white">Our Vision</h3>
             </div>
             <p className="text-lg text-gray-300 leading-relaxed">
-              To digitally transform Katsina State, Nigeria — empowering individuals, enhancing public service, 
+              To digitally transform Katsina State, Nigeria — empowering individuals, enhancing community services, 
               and positioning the state as a digital powerhouse in Africa.
             </p>
             <div className="space-y-4">
@@ -204,7 +203,7 @@ const About: React.FC = () => {
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
-                  <span>Modernize governance and commerce</span>
+                  <span>Modernize commerce and community services</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-purple-400 rounded-full"></div>

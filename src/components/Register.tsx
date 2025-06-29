@@ -85,10 +85,10 @@ const Register: React.FC = () => {
       spots: "20 teams"
     },
     {
-      title: "E-Governance Workshop",
+      title: "Digital Transformation Workshop",
       date: "April 25, 2024",
       time: "10:00 AM - 3:00 PM",
-      location: "Government House",
+      location: "Innovation Hub",
       spots: "50 participants"
     }
   ];

@@ -108,7 +108,7 @@ const Blog: React.FC = () => {
     {
       id: 7,
       title: "Musa's Journey: From Civil Servant to Digital Leader",
-      excerpt: "Musa Ibrahim shares how digital training transformed his approach to public service and improved citizen satisfaction.",
+      excerpt: "Musa Ibrahim shares how digital training transformed his approach to community service and improved citizen satisfaction.",
       category: "success-stories",
       author: "Success Stories Team",
       date: "March 1, 2024",
@@ -373,14 +373,14 @@ const Blog: React.FC = () => {
           </div>
 
           <div className="max-w-md mx-auto">
-            <div className="flex space-x-4">
+            <div className="flex flex-col xs:flex-row gap-3 xs:gap-4 items-stretch xs:items-center w-full">
               <input
                 type="email"
                 placeholder="Enter your email address"
-                className="flex-1 px-4 py-3 bg-slate-700/50 border border-slate-600/30 rounded-xl text-white placeholder-gray-400 focus:border-emerald-500 focus:outline-none transition-colors"
+                className="flex-1 px-4 py-3 bg-slate-700/50 border border-slate-600/30 rounded-xl text-white placeholder-gray-400 focus:border-emerald-500 focus:outline-none transition-colors min-w-0"
               />
               <motion.button
-                className="bg-gradient-to-r from-emerald-600 to-cyan-600 text-white px-6 py-3 rounded-xl font-semibold hover:shadow-2xl hover:shadow-emerald-500/25 transition-all duration-300"
+                className="w-full xs:w-auto bg-gradient-to-r from-emerald-600 to-cyan-600 text-white px-6 py-3 rounded-xl font-semibold hover:shadow-2xl hover:shadow-emerald-500/25 transition-all duration-300 flex-shrink-0"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
               >
