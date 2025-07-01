@@ -293,24 +293,7 @@ const Register: React.FC = () => {
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-2 gap-4">
-              {stats.map((stat, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, scale: 0.8 }}
-                  animate={inView ? { opacity: 1, scale: 1 } : {}}
-                  transition={{ duration: 0.5, delay: 1.1 + index * 0.1 }}
-                  className="bg-slate-800/30 border border-slate-600/30 rounded-xl p-4 text-center"
-                >
-                  <div className="inline-flex items-center justify-center w-12 h-12 bg-emerald-500/20 rounded-full mb-3">
-                    <div className="text-emerald-400">{stat.icon}</div>
-                  </div>
-                  <div className="text-2xl font-bold text-white mb-1">{stat.number}</div>
-                  <div className="text-gray-400 text-sm">{stat.label}</div>
-                </motion.div>
-              ))}
-            </div>
-
+           
             {/* Upcoming Events */}
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-white mb-4">Upcoming Events</h3>

@@ -1,12 +1,28 @@
 import React from 'react';
+import num1 from '../../img/spon/1.png'
+import num2 from '../../img/spon/2.png'
+import num4 from '../../img/spon/4.png'
+import num5 from '../../img/spon/5.png'
+import num6 from '../../img/spon/6.png'
+import num7 from '../../img/spon/7.png'
+import num8 from '../../img/spon/8.png'
+import num9 from '../../img/spon/9.jpeg'
+import num10 from '../../img/spon/10.png'
+import num11 from '../../img/spon/11.png'
+
+
 
 const partners = [
-  { name: 'TechCo', logo: '/logos/techco.svg' },
-  { name: 'InnoBank', logo: '/logos/innobank.svg' },
-  { name: 'EduPlus', logo: '/logos/eduplus.svg' },
-  { name: 'GlobalNet', logo: '/logos/globalnet.svg' },
-  { name: 'GreenEnergy', logo: '/logos/greenenergy.svg' },
-  { name: 'SmartAfrica', logo: '/logos/smartafrica.svg' },
+  { name: 'Arewa Devs', logo: num1 },
+  { name: 'Adolescent Girls', logo: num2 },
+  { name: 'Comboss', logo: num4},
+  { name: 'KSITM', logo: num5 },
+  { name: 'NCS', logo: num6 },
+  { name: 'New Era', logo: num7 },
+  { name: 'PLBC', logo: num8 },
+  { name: 'SKILLS4S', logo: num9 },
+  { name: 'UMKAR Academy', logo: num10 },
+  { name: 'UTSS', logo: num11},
 ];
 
 const Partners: React.FC = () => {
@@ -20,12 +36,12 @@ const Partners: React.FC = () => {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 items-center justify-center">
           {partners.map((partner, idx) => (
             <div key={partner.name} className="flex flex-col items-center justify-center">
-              <div className="w-28 h-16 flex items-center justify-center bg-white/10 rounded-xl shadow-inner border border-slate-700/40 mb-2">
+              <div className="w-28 h-35 p-1 flex items-center justify-center bg-white/10 rounded-xl shadow-inner border border-slate-700/40 mb-2">
                 {/* Placeholder SVG or image */}
                 <img
                   src={partner.logo}
                   alt={partner.name + ' logo'}
-                  className="max-h-10 max-w-[80%] object-contain mx-auto"
+                  className="max-h-30 max-w-[80%] object-contain mx-auto"
                   onError={e => (e.currentTarget.src = 'https://placehold.co/120x40?text=Logo')}
                 />
               </div>

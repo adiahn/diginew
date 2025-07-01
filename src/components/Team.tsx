@@ -1,41 +1,42 @@
 import React from 'react';
+import ceo from '../../img/implementation/1.jpeg'
+import num2 from '../../img/implementation/2.jpeg'
+import num3 from '../../img/implementation/3.jpeg'
+import num4 from '../../img/implementation/4.jpeg'
+import num5 from '../../img/implementation/5.jpg'
+import num6 from '../../img/implementation/6.jpeg'
+
 
 const team = [
   {
-    name: 'Amina Bello',
-    role: 'Project Lead',
-    avatar: 'https://randomuser.me/api/portraits/women/68.jpg',
-    bio: 'Visionary leader with 10+ years in digital transformation and public sector innovation.'
+    name: 'Usman Ishaq Kharofi',
+    role: 'Cordinator',
+    avatar: ceo,
   },
   {
-    name: 'Musa Ibrahim',
-    role: 'Technical Director',
-    avatar: 'https://randomuser.me/api/portraits/men/32.jpg',
-    bio: 'Full-stack engineer and mentor, passionate about youth empowerment and open source.'
+    name: 'Muhammad Abbas Usman',
+    role: 'Lead, Monitoring and Evaluation',
+    avatar: num2,
   },
   {
-    name: 'Fatima Usman',
-    role: 'Digital Skills Trainer',
-    avatar: 'https://randomuser.me/api/portraits/women/65.jpg',
-    bio: 'Expert in e-learning and digital literacy, empowering thousands of students.'
+    name: 'Abdurrahman Mustapha',
+    role: 'Lead, Training & Seminars',
+    avatar: num3,
   },
   {
-    name: 'Sani Abdullahi',
-    role: 'Community Coordinator',
-    avatar: 'https://randomuser.me/api/portraits/men/45.jpg',
-    bio: 'Grassroots mobilizer connecting rural communities to digital opportunities.'
+    name: 'Adnan Muhammad Mukhtar',
+    role: 'Lead, Technical Unit',
+    avatar: num4,
   },
   {
-    name: 'Maryam Lawal',
-    role: 'Innovation Hub Manager',
-    avatar: 'https://randomuser.me/api/portraits/women/43.jpg',
-    bio: 'Startup mentor and ecosystem builder, supporting tech entrepreneurs.'
+    name: 'Zainaab A. Sulaiman',
+    role: 'Lead Communication Unit',
+    avatar: num5,
   },
   {
-    name: 'Kabir Yusuf',
-    role: 'Data & Research Lead',
-    avatar: 'https://randomuser.me/api/portraits/men/41.jpg',
-    bio: 'Data scientist using analytics to drive policy and impact.'
+    name: 'Aisha Muhammad',
+    role: 'Creative and Promotion Lead',
+    avatar: num6,
   }
 ];
 
@@ -53,7 +54,7 @@ const Team: React.FC = () => {
               <img
                 src={member.avatar}
                 alt={member.name + ' avatar'}
-                className="w-20 h-20 rounded-full object-cover border-4 border-emerald-500 mb-4 shadow-lg"
+                className="w-40 h-40 rounded-full object-cover border-4 border-emerald-500 mb-4 shadow-lg"
                 onError={e => (e.currentTarget.src = 'https://placehold.co/80x80?text=Avatar')}
               />
               <div className="text-lg font-bold text-white mb-1">{member.name}</div>
